@@ -77,6 +77,7 @@ async function withdraw() {
             await listenForTransactionMine(transactionResponse, provider)
         } catch (error) {
             console.log(error)
+        }
     } else {
       console.log("Please install MetaMask");
     }
